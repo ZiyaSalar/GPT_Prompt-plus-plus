@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>GPT-Prompt++</title>
+  <style>
+    :root {
+      --primary: #ffffff;        /* White primary */
+      --primary-light: #e0e0e0;  /* Light gray */
+      --bg: #212121;            /* Base dark */
+      --card: #2d2d2d;          /* Card dark */
+      --text: #f5f5f5;          /* Bright text */
+      --text-light: #bdbdbd;    /* Secondary text */
+    }
+
+    body {
+      font-family: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+      margin: 0;
+      padding: 16px;
+      background: var(--bg);
+      color: var(--text);
+      width: 300px;
+      min-height: 200px;
+      box-sizing: border-box;
+    }
+
+    .container {
+      animation: fadeIn 0.3s ease-out;
+    }
+
+    @keyframes fadeIn {
+      from { opacity: 0; transform: translateY(-5px); }
+      to { opacity: 1; transform: translateY(0); }
+    }
+
+    .header {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      margin-bottom: 20px;
+    }
+
+    .logo-icon {
+      width: 40px;
+      height: 40px;
+      margin-right: 12px;
+    }
+
+    h1 {
+      font-size: 18px;
+      font-weight: 700;
+      margin: 0;
+      color: var(--primary);
+    }
+
+    .steps {
+      margin: 0;
+      padding: 0;
+      list-style: none;
+    }
+
+    .step {
+      margin: 12px 0;
+      padding: 14px;
+      background: var(--card);
+      border-radius: 12px;
+      box-shadow: 0 2px 8px rgba(0,0,0,0.3);
+      display: flex;
+      align-items: center;
+      font-size: 13.5px;
+      transition: all 0.2s ease;
+      border: 1px solid rgba(255,255,255,0.08);
+    }
+
+    .step:hover {
+      transform: translateY(-2px);
+      box-shadow: 0 4px 12px rgba(0,0,0,0.4);
+      background: #333333;
+    }
+
+    .step-number {
+      width: 24px;
+      height: 24px;
+      background: var(--primary);
+      border-radius: 50%;
+      color: var(--bg); /* Dark text for contrast */
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      font-size: 12px;
+      font-weight: bold;
+      margin-right: 12px;
+      flex-shrink: 0;
+    }
+
+    .footer {
+      margin-top: 20px;
+      text-align: center;
+      font-size: 11px;
+      color: var(--text-light);
+      padding: 8px 0;
+      border-top: 1px solid rgba(255,255,255,0.08);
+    }
+
+    b {
+      font-weight: 600;
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <div class="header">
+      <img src="../icons/gpt-prompt-plus-plus-icon.png" alt="GPT-Prompt++ Icon" class="logo-icon">
+      <h1>GPT Prompt++</h1>
+    </div>
+    
+    <ul class="steps">
+      <li class="step">
+        <div class="step-number">1</div>
+        Write your initial prompt in ChatGPT
+      </li>
+      <li class="step">
+        <div class="step-number">2</div>
+        Click the GPT-Prompt++ icon
+      </li>
+      <li class="step">
+        <div class="step-number">3</div>
+        Get an enhanced and optimized prompt
+      </li>
+    </ul>
+    
+    <div class="footer">
+      Boost your AI productivity with GPT Prompt++
+    </div>
+  </div>
+</body>
+</html>

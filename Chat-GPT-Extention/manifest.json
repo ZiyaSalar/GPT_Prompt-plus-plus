@@ -1,0 +1,36 @@
+{
+    "name": "GPT-Prompt++",
+    "description": "Enhance Your Chatgpt prompt with one click",
+    "version": "1.0.0",
+    "manifest_version": 3,
+    "permissions": ["activeTab", "storage"],
+    "host_permissions": [
+        "http://localhost:8080/*",
+        "*://chatgpt.com/*"
+    ],
+    "content_scripts": [
+        {
+            "js": ["content.js"],
+            "css": ["content.css"],
+            "matches": ["*://chatgpt.com/*"],
+            "run_at" : "document_end"
+        }
+    ],
+    "web_accessible_resources": [
+        {
+            "resources": [
+            "icons/*.png",
+            "icons/*.gif"
+            ],
+            "matches": [
+            "*://chatgpt.com/*"
+            ]
+        }
+    ],
+
+    "action": {
+        "default_title" : "prompt Enhancer",
+        "default_popup": "popup/popup.html",
+        "default_icon": "icons/gpt-prompt-plus-plus-icon.png"
+    }
+}
