@@ -1,4 +1,5 @@
-# # <img src="Chat-GPT-Extention/icons/gpt-prompt-plus-plus-icon.png" alt="GPT Prompt++" width="25" height="25" style="vertical-align: middle;"/> GPT Prompt++
+# # `<img src="Chat-GPT-Extention/icons/gpt-prompt-plus-plus-icon.png" alt="GPT Prompt++" width="25" height="25" style="vertical-align: middle;"/>` GPT Prompt++
+
  GPT Prompt++
 
 **GPT Prompt++** is a lightweight browser extension backed by a **Spring Boot** service that supercharges your prompt engineering workflow. It was built to solve a real-life frustration—rewriting and tweaking prompts repeatedly while working with ChatGPT. GPT Prompt++ helps you **refine**, **optimize**, and **reuse** prompts seamlessly.
@@ -183,11 +184,17 @@ Please include screenshots/GIFs for UI changes.
 
 ---
 
+---
+
 ## 📸 Screenshots / Demo
 
-> Add images or a short GIF in `/docs` and reference them here.
+### Extension Popup
 
----
+![Extension Popup](docs/Extension-Popup.png)
+
+### Demo GIF
+
+![Extension Demo](docs/Extension-Demo-gif.gif)
 
 ## 📜 License
 
