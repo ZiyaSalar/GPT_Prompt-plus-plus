@@ -1,4 +1,5 @@
-# 🚀 GPT Prompt++
+# # <img src="Chat-GPT-Extention/icons/gpt-prompt-plus-plus-icon.png" alt="GPT Prompt++" width="25" height="25" style="vertical-align: middle;"/> GPT Prompt++
+ GPT Prompt++
 
 **GPT Prompt++** is a lightweight browser extension backed by a **Spring Boot** service that supercharges your prompt engineering workflow. It was built to solve a real-life frustration—rewriting and tweaking prompts repeatedly while working with ChatGPT. GPT Prompt++ helps you **refine**, **optimize**, and **reuse** prompts seamlessly.
 
@@ -19,7 +20,7 @@
 
 ## 🛠 Tech Stack
 
-* **Backend:** [Spring Boot](https://spring.io/projects/spring-boot) (Java 17+), REST API
+* **Backend:** [Spring Boot](https://spring.io/projects/spring-boot) (Java 21), REST API
 * **Extension:** JavaScript, HTML, CSS (Manifest v3)
 * **Build/Tooling:** Maven (backend)
 
@@ -48,13 +49,13 @@
 ### 1) Clone the Repository
 
 ```bash
-git clone https://github.com/<your-username>/gpt-prompt-plusplus.git
+git clone https://github.com/ZiyaSalar/GPT_Prompt-plus-plus.git
 cd gpt-prompt-plusplus
 ```
 
 ### 2) Backend Setup (Spring Boot)
 
-**Requirements:** Java 17+, Maven
+**Requirements:** Java 21, Maven
 
 ```bash
 cd backend
@@ -150,7 +151,7 @@ Review `manifest.json` for the exact list.
 
 Contributions are welcome!
 
-* 🐛 **Bugs:** Open an [Issue](https://github.com/<your-username>/gpt-prompt-plusplus/issues)
+* 🐛 **Bugs:** Open an [Issue](https://github.com/ZiyaSalar/GPT_Prompt-plus-plus/issues)
 * 💡 **Features:** Propose enhancements via Issues/Discussions
 * 🔧 **PRs:**
 
@@ -197,5 +198,6 @@ This project is released under the **MIT License**. See `LICENSE` for details.
 ## 🙌 Acknowledgements
 
 * [Spring Boot](https://spring.io/projects/spring-boot)
+* [ChatGPT](https://chatgpt.com/)
 * The open‑source AI community
 * Everyone sharing feedback & issues — thank you!
