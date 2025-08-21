@@ -30,7 +30,7 @@
 
 ```
 .
-├── extension/               # Browser extension source
+├── Chat-GPT-Extention/               # Browser extension source
 │   ├── manifest.json
 │   ├── content.js
 │   ├── icons/
