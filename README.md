@@ -38,7 +38,7 @@
 ├── backend/                 # Spring Boot application
 │   ├── pom.xml
 │   └── src/main/java/...
-├── docs/                    # Screenshots, demo GIFs (optional)
+├── docs/                    # Screenshots, demo GIFs
 └── README.md
 ```
 
