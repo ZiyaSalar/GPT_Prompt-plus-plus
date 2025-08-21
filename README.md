@@ -1,4 +1,4 @@
-# # `<img src="Chat-GPT-Extention/icons/gpt-prompt-plus-plus-icon.png" alt="GPT Prompt++" width="25" height="25" style="vertical-align: middle;"/>` GPT Prompt++
+# # <img src="Chat-GPT-Extention/icons/gpt-prompt-plus-plus-icon.png" alt="GPT Prompt++" width="25" height="25" style="vertical-align: middle;"/> GPT Prompt++
 
  GPT Prompt++
 
