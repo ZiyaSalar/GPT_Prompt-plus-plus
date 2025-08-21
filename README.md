@@ -35,7 +35,7 @@
 │   ├── content.js
 │   ├── icons/
 │   └── ...
-├── backend/                 # Spring Boot application
+├── gpt-prompt-plus-plus-sb/                 # Spring Boot application
 │   ├── pom.xml
 │   └── src/main/java/...
 ├── docs/                    # Screenshots, demo GIFs
