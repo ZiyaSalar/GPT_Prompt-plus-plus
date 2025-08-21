@@ -9,7 +9,7 @@
 
 ## ✨ Features
 
-* 🔹 **Prompt Optimization** – Automatically refines and enhances your prompts for higher‑quality outputs.
+* 🔹 **Prompt Optimization** – Automatically enhances your prompts for higher‑quality outputs.
 * 🔹 **Template Management** – Save, edit, and reuse prompt templates by scenario.
 * 🔹 **One‑Click Insert** – Inject enhanced prompts straight into the ChatGPT editor.
 * 🔹 **Clean UI** – Minimal, unobtrusive button inside the ChatGPT compose bar.
